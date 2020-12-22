@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behaviour:smooth;
+}
+body{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  font-family:'Bebas Neue' , serif;
+  order:2;
+    background-image:url(https://i.pinimg.com/originals/06/9e/b1/069eb168925973c3900d74beb63f9102.jpg);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+}
+/*--------------header------------------------------*/
+#header{
+  position:fix;
+  display:flex;
+  align-itmes:center;
+  font-family:'Bebas Neue',serif;
+  top:0;
+  min-height:75px;
+  background-color:#eee;
+  background-image:url(https://images.unsplash.com/photo-1607980263143-d4abc7a7d488?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80); 
+}
+ .logo >img{
+  width:;
+  height:150px;
+  max-width:300px;
+  display:flex;
+  justify-contents:center;
+  align-items:center;
+  text-align:center;
+  margin-left:30px;
+  margin-top:10px;
+}
+nav{
+  font-weight:400;
+
+}
+nav >ul{
+  width:35vw;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  
+  
+}
+ul{
+  list-style-type:disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start:1em;
+  margin-inline-end:1em;
+  padding-inline-start:40px;
+  
+}
+a{
+  color: #000;
+ text-decoration:none;
+}
+.container{
+  max-width:1000px;
+  width:100%;
+  margin:0 auto;
+}
+div{
+  display:block;
+}
+/*--------------------------HERO---------------------------------------*/  
+#hero{
+  display:flex;
+  flex-direction:column;
+  align-itmes:center;
+  justify-content:center;
+  text-align:center;
+  height:200px;
+  margin-top:50px;
+ }
+#hero >h2{
+  margin-bottom:20px;
+  word-wrap:break-word;
+}
+h2{
+  display:block;
+  font-size:1.5em;
+  margin-block-start:0.83em;
+  margin-block-end:0.83em;
+  margin-inline-start:0px;
+  margin-inline-end:0px;
+  font-family:"langar";
+}
+section{
+  display:block;
+}
+#history{
+  margin-top:30px;
+}
+.grid{
+  display:flex;
+}  
+#history .icons{
+  display:flex;
+  align-itmes:center;
+  justify-content:center;
+  height:125px;
+  width:20vw;
+  color:darkorange;
+ }
+
+i{
+  font-style:italic;
+  color: #845ef7;
+}
+
+#procedure{
+  margin-top:50px;
+  displayL:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+#contacts{
+  margin-top:60px;
+  display:flex;
+  flex-direction:row;
+  justify-content:row;
+  box-shadow:10px 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  
+}
+
+
+.product{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  width:calc(100%/3);
+  margin:10px;
+  border:1px solid #000000;
+  padding:50px;
+  border-radius:3px;
+  background-image:url(https://cdn.shopify.com/s/files/1/2930/2308/products/deep-gray-printed-old-master-solid-background-for-photography-backdrop_800x.jpg?v=1535707898);
+  color:white;
+  
+  
+}
+.product >.level{
+  padding:15px 0;
+  width:100%;
+  background-color:#ddd;
+  color:black;
+  text-transform:uppercase;
+  font-weight:700;
+}
+.product >ol{
+  margin:15px 0;
+}
+ol{
+  display:block;
+  list-style-type:decimal;
+  margin-block-start:1em;
+  margin-block-end:1em;
+  margin-inline-start:0px;
+  margin-inline-end:0px;
+  font-family:"Raleway" , serif;
+}
+ .btn{
+
+    appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+/*-----------------------------------------FOOTER---------------------------------------------------------------------------------------*/
+footer{
+  margin-top:30px;
+  background-color:#ddd;
+  padding:10px;
+  font-size:large;
+  text-align:center;
+}
+footer >ul{
+  display:flex;
+  justify-content:center;
+  justify-content:space-around;
+  }
+footer >ul >li{
+  padding:0 10px;
+  list-style:none;
+}
+footer >span{
+ margin-top: 5px;
+  display:flex;
+  justify-content:center;
+  font-size:1.3em;
+  color:#444;
+  font-family:"Raleway"
+    color:black;
+  }
+  
+  
+  
+  
+  
+
+
